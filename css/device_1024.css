@@ -1,0 +1,118 @@
+@media screen and (max-width: 1024px){
+
+/*-------- HEADER section -- START --*/
+    .header{
+        height: unset;
+        min-height: 10px;
+        position: relative;
+    }
+
+
+    .affix .navbar-brand {
+        height: 20px;
+    }
+
+    .nav-tabs.nav-justified {
+        padding: 0px 50px;
+    }
+/*XXXXXXXX HEADER section XX END XX*/
+    /*.shade{*/
+
+        /*height: auto;*/
+    /*}*/
+
+    /*.tab-content {*/
+
+        /*!*padding: 0 20px;*!*/
+        /*height: 420px;*/
+        /*!*border-radius: 5px;*!*/
+
+    /*}*/
+    #uniqueness .pads{
+        padding-left: 0;
+        margin-right: 25px;
+    }
+
+/*------ TEAM section -- START --*/
+    #team ul li img{
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        margin-left: 0;
+
+    }
+
+    .rotated-team-box h3{
+        font-size: 12px;
+        color: white;
+    }
+
+    .rotated-team-box > ul{
+        padding: 0;
+    }
+    .rotated-team-box > ul > li {
+        display: inline-block;
+        justify-content: center;
+        border: 1px solid grey;
+        width: 100px;
+        height: 100px;
+        /*border: 1px solid chocolate;*/
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+        position: unset;
+        height: 150px;
+        width: 140px;
+        margin: 0;
+    }
+    .rotated-team-box > ul > li > a {
+        /*border: 1px solid chocolate;*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        -moz-transform: translate(-50%, -50%) rotate(0deg);
+        -ms-transform: translate(-50%, -50%) rotate(0deg);
+        -o-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    .rotated-team-box > .tabbing {
+        margin-top: 0px;
+    }
+
+    .rotated-team-box > .tabbing{
+        margin-left: 0;
+    }
+
+    .team-social {
+        margin: -30px 0;
+        padding: 0px;
+        height: 30px;
+
+    }
+    .team-social li i {
+        color: white;
+        padding: 20%;
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .rotated-team-box > ul > li > .hide-text{
+        opacity: 1;
+    }
+    .rotated-team-box .nav .hvr ul{
+        background-color: rgba(34, 54, 80, .4);
+    }
+    /*.rotated-team-box > ul > li > .hide-text{*/
+        /*!*opacity: 1;*!*/
+    /*}*/
+/*XXXXXXXX TEAM section XX END XX*/
+
+    #details
+}

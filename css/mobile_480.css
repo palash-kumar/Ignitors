@@ -1,0 +1,119 @@
+@media (max-width:480px){
+    /*------ GLOBAL -- START --*/
+    .h1, .h2, .h3, h1, h2, h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #services , #uniqueness, #team, #details{
+        padding-top: 0;
+    }
+    /*XXXXXX GLOBAL XX END XX*/
+
+    .tab-content {
+        padding: 0;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        height: auto;
+    }
+    .nav {
+        padding-left: 30px;
+    }
+    .nav-tabs {
+        width: 230px;
+        height: 210px;
+    }
+
+    .nav-tabs > li{
+        width: 95px !important;
+        height: 95px !important;
+        text-align: center;
+        border: 1px solid gray;
+        margin: 2px;
+    }
+    .nav-tabs > li> a{
+        /*padding: inherit;*/
+        margin: 15% 0;
+        font-size: 12px;
+    }
+    .nav-tabs > li> a > i{
+        font-size: 20px;
+    }
+    .nav {
+        padding-left: 30px;
+    }
+    .nav-tabs > li{
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        border: 1px solid gray;
+        margin: 2px;
+    }
+    .details-marg{
+        margin-bottom: 40px;
+    }
+
+    /*------ TEAM section -- START --*/
+    .rotated-box {
+        margin: 30px auto;
+    }
+    .rotated-box {
+        /*margin: 30px auto;*/
+        height: 150px;
+        width: 240px;
+    }
+
+    .rotated-team-box > ul{
+        padding: 0;
+    }
+    .rotated-team-box > ul > li {
+        display: inline-block;
+        justify-content: center;
+        border: 1px solid grey;
+        width: 100px;
+        height: 100px;
+        border: 1px solid chocolate;
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+        position: unset;
+        height: 150px;
+        width: 140px;
+        margin: 0;
+    }
+    .rotated-team-box > ul > li > a {
+        /*border: 1px solid chocolate;*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        -moz-transform: translate(-50%, -50%) rotate(0deg);
+        -ms-transform: translate(-50%, -50%) rotate(0deg);
+        -o-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    .rotated-team-box > .tabbing {
+        margin-top: 0px;
+    }
+
+    /*XXXXXXXX TEAM section XX END XX*/
+
+    #details .shade {
+        height: auto;
+    }
+    #footer > p {
+        font-size: 12px;
+    }
+    #footer > img{
+        /*width: 50px;*/
+    }
+    .pads{
+        padding-left: 5%;
+        padding-top: 0;
+    }
+    #uniqueness .pads{
+        padding-left: 5%;
+        margin-right: 0;
+    }
+
+
+}
